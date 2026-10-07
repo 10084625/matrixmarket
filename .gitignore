@@ -1,0 +1,53 @@
+# OS junk
+.DS_Store
+Thumbs.db
+*.user
+
+# Android / Gradle ignores
+.gradle/
+build/
+app/build/
+*.iml
+.idea/
+local.properties
+
+# Backend / .NET / Node ignores
+bin/
+obj/
+.vs/
+.vscode/
+appsettings.Development.json
+
+# ---- Added for a clean repository ----
+# Build output
+bin/
+obj/
+build/
+out/
+TestResults/
+*.user
+*.suo
+.vs/
+# IDE / tooling
+.idea/
+.gradle/
+.kotlin/
+.vscode/
+*.iml
+local.properties
+.DS_Store
+Thumbs.db
+# Dependencies
+node_modules/
+# Secrets and local config (never commit these)
+.env
+*.pem
+*.pfx
+*.key
+google-services.json
+appsettings.*.local.json
+# Local databases and uploads
+*.db
+*.db-shm
+*.db-wal
+wwwroot/uploads/
